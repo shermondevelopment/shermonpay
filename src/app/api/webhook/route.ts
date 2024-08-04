@@ -27,7 +27,7 @@ export async function POST(req: Request) {
   data: {
     dateCreate: payment.dataCriacao,
     endToEndId: payment.endToEndId,
-    reason: payment.motivo,
+    reason: payment?.motivo ?? '',
     identifierPayment: payment.identificadorPagamento,
     status: payment.status,
     value: payment.valor,
