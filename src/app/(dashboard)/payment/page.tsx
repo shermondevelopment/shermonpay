@@ -8,7 +8,10 @@ export default async function Payment() {
 	console.log(payments, 'sheron 22')
 
 	return (
-		<PaymentTable payments={payments} />
+		<>
+			{JSON.stringify(payments, null, 4)}
+			<PaymentTable payments={payments} />
+		</>
 	)
 }
 
