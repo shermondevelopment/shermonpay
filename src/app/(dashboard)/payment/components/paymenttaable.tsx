@@ -23,7 +23,7 @@ export default function PaymentTable({ payments }: TableProps) {
 	const [products] = useState<Payment[]>(payments)
 
 	const statusBodyTemplate = (product: Payment) => {
-        return <Tag value={product.status} severity={getSeverity(product)}></Tag>;
+        return <Tag value={product.status.toUpperCase()} severity={getSeverity(product)}></Tag>;
     };
 
 	const getSeverity = (product: Payment) => {
@@ -46,9 +46,9 @@ export default function PaymentTable({ payments }: TableProps) {
 	return (
 		<DataTable value={products} showGridlines tableStyle={{ minWidth: '50rem' }}>
 			<Column field="id" header="id"></Column>
-			<Column field="date" header="Data" body={({ dateCreate }: Payment) => dayjs(dateCreate).format('DD/MM/YYYY')}></Column>
+			<Column field="date" header="Data" body={({ dateCreate }: Payment) => dayjs(dateCreate).format("DD/MM/YYYY [às] HH:mm:ss")}></Column>
 			<Column field="value" header="Valor" body={({value}) => Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL'}).format(value)}></Column>
-			<Column field="reason" header="Motivo" body={({reason}) => reason}></Column>
+			<Column field="reason" header="Motivo" body={({reason}) => reason !== '' ? reason : '-'}></Column>
 			<Column field="status" header="Status" body={statusBodyTemplate}></Column>
 		</DataTable>
 	)
