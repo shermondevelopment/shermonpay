@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = env("postgresql://norbaas_owner:SQZfo2XVWCs0@ep-shrill-night-a5kezoze.us-east-2.aws.neon.tech/norbaas?sslmode=require")
 }
 
 model Payment {
