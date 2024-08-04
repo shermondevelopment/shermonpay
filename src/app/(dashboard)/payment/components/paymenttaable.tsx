@@ -6,48 +6,21 @@ import dayjs from 'dayjs'
 import { Tag } from 'primereact/tag';
 
 interface Payment {
-    id: string;
-    date: string;
-    type: string;
+    dateCreate: Date,
+    endToEndId: string,
+    reason: string
+    identifierPayment: string,
     status: string
+    value: string
 }
 
-const transactionArray = [
-	{
-        id: "89hf823odjasjdiasdj",
-        date: "2023-05-10T14:48:00.000Z",
-        type: "PIX",
-        status: "APROVADO"
-    },
-    {
-        id: "oyd7dhoasaidai2ol",
-        date: "2023-07-22T10:20:00.000Z",
-        type: "PIX",
-        status: "PENDENTE"
-    },
-    {
-        id: "2198ydahdasihdaisohd",
-        date: "2023-08-01T16:35:00.000Z",
-        type: "PIX",
-        status: "CANCELADO"
-    },
-    {
-        id: "aod82ye8hdiasjdia",
-        date: "2023-06-15T09:45:00.000Z",
-        type: "PIX",
-        status: "APROVADO"
-    },
-    {
-        id: "17d7ashdoasii",
-        date: "2023-07-30T13:10:00.000Z",
-        type: "PIX",
-        status: "CANCELADO"
-    }
-]
+interface TableProps {
+    payments: Payment[]
+}
  
-export default function PaymentTable() {
+export default function PaymentTable({ payments }: TableProps) {
 
-	const [products] = useState<Payment[]>(transactionArray)
+	const [products] = useState<Payment[]>(payments)
 
 	const statusBodyTemplate = (product: Payment) => {
         return <Tag value={product.status} severity={getSeverity(product)}></Tag>;
@@ -55,13 +28,13 @@ export default function PaymentTable() {
 
 	const getSeverity = (product: Payment) => {
         switch (product.status) {
-            case 'APROVADO':
+            case 'aceito':
                 return 'success';
 
             case 'PENDENTE':
                 return 'warning';
 
-            case 'CANCELADO':
+            case 'rejeitado':
                 return 'danger';
 
             default:
@@ -73,8 +46,9 @@ export default function PaymentTable() {
 	return (
 		<DataTable value={products} showGridlines tableStyle={{ minWidth: '50rem' }}>
 			<Column field="id" header="id"></Column>
-			<Column field="date" header="date" body={({ date }: Payment) => dayjs(date).format('DD/MM/YYYY')}></Column>
-			<Column field="type" header="Tipo de Pagamento"></Column>
+			<Column field="date" header="Data" body={({ dateCreate }: Payment) => dayjs(dateCreate).format('DD/MM/YYYY')}></Column>
+			<Column field="value" header="Valor" body={({value}) => Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL'}).format(value)}></Column>
+			<Column field="reason" header="Motivo" body={({reason}) => reason}></Column>
 			<Column field="status" header="Status" body={statusBodyTemplate}></Column>
 		</DataTable>
 	)

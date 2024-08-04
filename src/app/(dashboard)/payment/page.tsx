@@ -1,9 +1,14 @@
+import prisma from "@/settings/prisma";
 import PaymentTable from "./components/paymenttaable";
 
-export default function Payment() {
+export default async function Payment() {
 
+	const payments = await prisma.payment.findMany()
+
+	console.log(payments, 'sheron 22')
 
 	return (
-		<PaymentTable />
+		<PaymentTable payments={payments} />
 	)
 }
+
