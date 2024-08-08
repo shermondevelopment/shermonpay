@@ -1,7 +1,7 @@
 import prisma from "@/settings/prisma";
 import PaymentTable from "./components/paymenttaable";
 
-export const relalidate = 0;
+export const revalidate = 0;
 
 export const dynamic = "force-dynamic";
 export const fetchCache = "force-no-store";
