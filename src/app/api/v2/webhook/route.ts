@@ -18,26 +18,25 @@ export interface Payment {
 
  
 export async function POST(req: Request) {
-//  const payment: Payment = await req.json()
+ const payment: Payment = await req.json()
  
   
-//  console.log(await req.json())
-//  const prisma = new PrismaClient()
+ const prisma = new PrismaClient()
 
-//  await prisma.payment.create({
-//   data: {
-//     dateCreate: payment.dataCriacao,
-//     endToEndId: payment.endToEndId,
-//     reason: payment?.motivo ?? '',
-//     identifierPayment: payment.identificadorPagamento,
-//     status: payment.status,
-//     value: payment.valor,
-//   }
-//  })
+ await prisma.payment.create({
+  data: {
+    dateCreate: payment.dataCriacao,
+    endToEndId: payment.endToEndId,
+    reason: payment?.motivo ?? '',
+    identifierPayment: payment.identificadorPagamento,
+    status: payment.status,
+    value: payment.valor,
+  }
+ })
 
  return NextResponse.json({})
 }
 
 export async function GET(req: Request) {
-	return NextResponse.json({ message: 'serrver on edited' })
+	return NextResponse.json({ message: 'serrver on edited success' })
 }
