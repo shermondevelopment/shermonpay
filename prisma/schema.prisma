@@ -21,4 +21,7 @@ model Payment {
   dateCreate DateTime
   endToEndId String
   reason String
+
+  created_at DateTime? @default(now())
+  updated_at  DateTime? @updatedAt
 }

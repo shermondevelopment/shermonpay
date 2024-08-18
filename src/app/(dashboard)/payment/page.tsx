@@ -7,7 +7,11 @@ export const dynamic = "force-dynamic";
 export const fetchCache = "force-no-store";
 
 async function getPayments() {
-	return await prisma.payment.findMany()
+	return await prisma.payment.findMany({
+		orderBy: {
+			dateCreate: 'desc'
+		}
+	})
 }
 
 export default async function Payment() {
