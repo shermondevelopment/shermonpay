@@ -29,7 +29,7 @@ export async function POST(req: Request) {
 
 	try {
 
-		const { value } = await req.json()
+		const { value, identificador } = await req.json()
 
 		const expired = await tokenExpired()
 
@@ -41,7 +41,7 @@ export async function POST(req: Request) {
 
 		const data = JSON.stringify({
 			pagador: {
-				idParticipante: "75db457a-612d-4d62-b557-ba9d32b05216",
+				idParticipante: identificador || "75db457a-612d-4d62-b557-ba9d32b05216",
 				cpf: "07526519351"
 			},
 			favorecido: {
