@@ -1,0 +1,660 @@
+[
+{
+	"identificador": "cc26199f-4949-4efd-9e1e-f21a34fd0239",
+	"nome": "Banco Bmg S.A",
+	"descricao": "\"O Banco Bmg S.A é um banco brasileiro, com sede na cidade de São Paulo. Foi fundado em 31 de julho de 1930. Ofereceremos produtos e serviços bancários como: empréstimos, investimentos, cartões para Pessoa Física e Jurídica através do app e site.\"",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20bmg%20s.a",
+	"logo": "https://www.bancobmg.com.br/data/files/8C/A2/7F/0A/FBA318104A94D208970BE9C2/bmg_open_finance.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO BMG S.A.",
+			"cnpj": "61186680000174",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "f9cabb03-876d-4eea-974c-0d8ce4bd4860",
+	"nome": "banco Digio",
+	"descricao": "O Digio é mais que um banco digital, é uma bantech. Pois conta com a solidez de um banco e agilidade de uma fintech. Com tecnologia, buscamos cumprir nossa principal missão: transformar a vida financeira dos brasileiros com segurança e transparência.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20digio",
+	"logo": "https://static.digio.com.br/media/logo_9b7226957a.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO DIGIO",
+			"cnpj": "27098060000145",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "75db457a-612d-4d62-b557-ba9d32b05216",
+	"nome": "Banco do Brasil",
+	"descricao": "Acesse serviços bancários e conte com as facilidades BB, seja na web ou no melhor app de banco do país na opinião de usuários. Seu Banco onde e quando você precisar. Para tudo o que você imaginar.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20do%20brasil",
+	"logo": "https://www.bb.com.br/docs/pub/inst/img/LogoBB.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO DO BRASIL S.A.",
+			"cnpj": "00000000000191",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "d7e27a98-ef6c-4b79-b2d8-c2527eba8d84",
+	"nome": "Banco Inter PF",
+	"descricao": "Simplicidade pra você e para sua empresa Mais que um banco, uma plataforma de serviços. Conta digital gratuita, plataforma de investimentos, seguros, crédito, shopping, cashback e muito mais! inter.co",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20inter%20pf",
+	"logo": "https://marketing.bancointer.com.br/arquivos/images/app-icon.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO INTER",
+			"cnpj": "00416968000101",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "edb215da-d1f1-47f0-b794-62a7d798ba6a",
+	"nome": "Banco Inter PJ",
+	"descricao": "Conta Digital PJ completa, gratuita e sem burocracias.  A conta empresarial que oferece vantagens para você e para o seu negócio. Aproveite o melhor das soluções da sua Conta Digital e conte com a parceria que só o Inter oferece. inter.co",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20inter%20pj",
+	"logo": "https://marketing.bancointer.com.br/arquivos/images/app-icon-pj.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO INTER",
+			"cnpj": "00416968000101",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "d58911b5-9c4c-4570-ba32-d0bd0dbc2816",
+	"nome": "Banco Mercantil",
+	"descricao": "O Mercantil é uma instituição referência no pagamento de benefícios do INSS e atua também em investimento, crédito, seguros, câmbio e DTVM. Possui uma equipe preparada para atender clientes PF e PJ em sua rede de agências e nos canais digitais.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20mercantil",
+	"logo": "http://www.mercantilbrasil.com.br/openbanking/mercantil.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO MERCANTIL DO BRASIL S.A.",
+			"cnpj": "17184037000110",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "3dd83d5d-52cd-43a4-ae23-02f5c5caec38",
+	"nome": "Banco Original",
+	"descricao": "O Original é um banco digital completo com produtos fáceis de entender e simples de usar. Tem tudo o que você precisa pra resolver sua vida financeira, direto no app. Contrata empréstimo, faz pagamentos, investimentos e tem cartão de crédito com cashback.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20original",
+	"logo": "https://picpay.s3.sa-east-1.amazonaws.com/openbanking/logo-original.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO ORIGINAL",
+			"cnpj": "92894922000108",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "612da9a3-ee82-4f9e-9919-fa8ba88800f9",
+	"nome": "Banco PAN",
+	"descricao": "O Banco PAN tem o objetivo de trazer um novo olhar para os desafios financeiros do brasileiro por meio de um portfólio de produtos: conta digital, cartão de crédito, empréstimos, financiamento de veículos e mais.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20pan",
+	"logo": "https://www.bancopan.com.br/content/dam/documentos/outros-produtos/open-banking/logo_pan_openbanking.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO PAN",
+			"cnpj": "59285411000113",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "aaacb9cf-e8c3-402b-93b8-cf4d3e2ec497",
+	"nome": "Banco Santander Pessoa Física",
+	"descricao": "Santander Pessoa Física é a marca do Banco Santander para Pessoas. O Banco atua desde 1982 oferecendo um amplo portfólio de produtos e serviços em seus  canais.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20santander%20pessoa%20f%C3%ADsica",
+	"logo": "https://cms.santander.com.br/sites/WPS/imagem/santander_chama/23-10-31_194829_P_santander_chama.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO SANTANDER (BRASIL) S.A.",
+			"cnpj": "90400888000142",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "770f6211-dbd4-4c84-b6b1-9104b4a99359",
+	"nome": "Banco Santander Pessoa Jurídica",
+	"descricao": "Santander Pessoa Jurídica é a marca do Banco Santander para Empresas. O Banco atua desde 1982 oferecendo um amplo portfólio de produtos e serviços em seus  canais.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20santander%20pessoa%20jur%C3%ADdica",
+	"logo": "https://cms.santander.com.br/sites/WPS/imagem/santander_chama/23-10-31_194829_P_santander_chama.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO SANTANDER (BRASIL) S.A.",
+			"cnpj": "90400888000142",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "2cac58c2-f9e5-48a3-b981-7263a0641645",
+	"nome": "Banco Sofisa S.A.",
+	"descricao": "Fundado em 1961, o Banco Sofisa é uma tradicional instituição financeira do país. Conhecido pela solidez e tradição de bons serviços, hoje reúne clientes fiéis que contam com parceiro de confiança que entende suas atividades e participa de seu dia-a-dia.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20sofisa%20s.a.",
+	"logo": "https://www.sofisa.com.br/openbanking/logo_sofisa.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO SOFISA S.A.",
+			"cnpj": "60889128000180",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "8dd11bd5-165e-4662-9eaa-112ef0d499c0",
+	"nome": "Banco XP S.A.",
+	"descricao": "O Banco XP é um banco múltiplo que tem as melhores soluções financeiras, tais como: conta corrente, cartão de crédito, Investback, benefícios em lojas parceiras, empréstimos, câmbio e muito mais, pensando em você e também no seu negócio!",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20xp%20s.a.",
+	"logo": "https://openbanking-redirect.xpi.com.br/assets/xpi.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO XP S.A.",
+			"cnpj": "33264668000103",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "8d92e794-7e32-43d2-a80e-8e19c3931bf4",
+	"nome": "Banco XP S.A. (Rico)",
+	"descricao": "A Rico é referência no mercado financeiro com nosso propósito de melhorar a vida das pessoas.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banco%20xp%20s.a.%20(rico)",
+	"logo": "https://openbanking-redirect.xpi.com.br/assets/rico.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO XP S.A.",
+			"cnpj": "33264668000103",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "88dc57a4-1dab-4493-8b02-b8f0c15a2d89",
+	"nome": "Banrisul",
+	"descricao": "Seja na facilidade do Banrisul Digital ou em uma das 500 agências espalhadas pelo Rio Grande do Sul e pelo Brasil, o Banrisul é o parceiro ideal para você e para o seu negócio. Compartilhe os seus dados com o Banrisul.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=banrisul",
+	"logo": "https://banrisul.com.br/bob/data/Simbolo-Banrisul.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO DO ESTADO DO RS S.A.",
+			"cnpj": "92702067000196",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "439a9b5c-2cfb-4e57-b60b-20eea83899ca",
+	"nome": "Bradesco Pessoa Física",
+	"descricao": "O Bradesco oferece as melhores soluções financeiras, como contas, cartões, investimentos, previdência, seguros, empréstimos, financiamentos, consórcio e muito mais nos Canais Digitais, ajudando clientes dos mais variados perfis a desafiarem o futuro.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=bradesco%20pessoa%20f%C3%ADsica",
+	"logo": "https://banco.bradesco/open-finance/logo/icones_vetorial-pf.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO BRADESCO SA",
+			"cnpj": "60746948000112",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "c6b15844-e748-4408-abb6-e71fd59d71c5",
+	"nome": "Bradesco Pessoa Jurídica",
+	"descricao": "Empreender é um desafio diário. O Bradesco Empresas e Negócios oferece um conjunto completo de soluções financeiras para apoiar a jornada de quem empreende no presente para reinventar o futuro.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=bradesco%20pessoa%20jur%C3%ADdica",
+	"logo": "https://banco.bradesco/open-finance/logo/icones_vetorial-pj.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO BRADESCO SA",
+			"cnpj": "60746948000112",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "40463326-a162-4b44-9afe-7803a6554e31",
+	"nome": "BRB - Banco de Brasilia SA",
+	"descricao": "No mundo digital, o BRB dispõe de serviços e produtos bancários tanto no celular quanto na internet. No mundo físico, são mais de 45 mil pontos de autoatendimento e a rede de bancos 24h à sua disposição. Há 57 anos transformando vidas e realizando sonhos.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=brb%20-%20banco%20de%20brasilia%20sa",
+	"logo": "https://auth-obk.brb.com.br/openbanking/v1/logo/brb.svg",
+	"organizacoes": [
+		{
+			"nome": "BRB - BCO DE BRASILIA S.A.",
+			"cnpj": "00000208000100",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "b397dd9c-62b2-4632-bce7-85f56666c083",
+	"nome": "BTG Banking",
+	"descricao": "O BTG Banking é um banco completo, uma plataforma que aprende com você e entende as suas necessidades para entregar soluções financeiras inteligentes que resolvem o seu dia a dia enquanto você planeja o seu futuro.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=btg%20banking",
+	"logo": "https://banking-public-prd.s3.sa-east-1.amazonaws.com/open-finance/logo/btgbanking/btgbanking.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO BTG PACTUAL S.A.",
+			"cnpj": "30306294000145",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "2d641a88-4441-44d9-b39a-a864d1ce8890",
+	"nome": "BTG Empresas",
+	"descricao": "O BTG Empresas é feito para empreendedores que possuem pequenas ou médias empresas e buscam soluções financeiras para ajudar no crescimento de seus negócios.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=btg%20empresas",
+	"logo": "https://banking-public-prd.s3.sa-east-1.amazonaws.com/open-finance/logo/btgempresas/btgempresas.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO BTG PACTUAL S.A.",
+			"cnpj": "30306294000145",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "965a0520-a103-495b-86c1-7e6b4cc4e1f2",
+	"nome": "BV - Pessoa Física - APP",
+	"descricao": "Procuramos nos adaptar ao novo momento, proporcionando mais segurança, praticidade e agilidade para você, no nosso app você tem acesso ao seu financiamento, cartão e conta digital do Banco BV",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=bv%20-%20pessoa%20f%C3%ADsica%20-%20app",
+	"logo": "https://www.bv.com.br/site/resources/open-finance/logo-bv.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO VOTORANTIM S.A.",
+			"cnpj": "59588111000103",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "e5355a94-5218-4314-82f9-1a5cabdde134",
+	"nome": "BV - Private",
+	"descricao": "Estruturamos soluções sólidas e inovadoras, proporcionando mais segurança e praticidade. No seu IB é possível acessar seus dados cadastrais, produtos de crédito, câmbio e investimentos contratados, além de informações de movimentação de sua conta",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=bv%20-%20private",
+	"logo": "https://www.bv.com.br/site/resources/open-finance/logo-bv.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO VOTORANTIM S.A.",
+			"cnpj": "59588111000103",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "6a0ec228-70b7-4292-9e64-8fa731b2a730",
+	"nome": "C6 Bank",
+	"descricao": "Experimente o C6 Bank! Garanta sua conta e tenha uma relação mais saudável com o seu dinheiro. Conta 100% digital em um app rápido e em constante evolução. Baixe o app. Sem anuidade. Saque sem tarifa. Saques gratuitos. Abra sua Conta.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=c6%20bank",
+	"logo": "https://cdn.c6bank.com.br/open-banking/c6bank-logo.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO C6 S.A.",
+			"cnpj": "31872495000172",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "221601a9-6e70-4698-9ea3-1bb28ceb4269",
+	"nome": "CAIXA",
+	"descricao": "A CAIXA tem as melhores soluções para você e sua empresa. Além de crédito, investimentos, habitação e outros, a CAIXA realiza sonhos e acompanha sua jornada para empreender. Seus dados estão seguros e você tem a solidez e a tradição da CAIXA.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=caixa",
+	"logo": "https://consentimento.openbanking.caixa.gov.br/assets/images/logomarca_caixa.svg",
+	"organizacoes": [
+		{
+			"nome": "CAIXA ECONOMICA FEDERAL",
+			"cnpj": "00360305000104",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "fe1bd3c6-8252-4d03-8d65-03ebd34c678f",
+	"nome": "CrediSIS",
+	"descricao": "O CrediSIS é um Sistema de Crédito Cooperativo, criado em 13 de agosto de 2000, através das cooperativas filiadas. Nossa missão é prover soluções financeiras aos cooperados, fomentando o cooperativismo e contribuindo para o desenvolvimento da sociedade.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=credisis",
+	"logo": "https://credisis.com.br/assets/credisis_logo.svg",
+	"organizacoes": [
+		{
+			"nome": "CREDISIS CENTRAL DE COOPERATIVAS DE CRÉDITO LTDA.",
+			"cnpj": "04632856000130",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "12532faa-fb28-4534-81a6-8aad89b59887",
+	"nome": "Credsystem",
+	"descricao": "Servidor de Autenticação Credsystem",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=credsystem",
+	"logo": "https://openfinance.credsystem.com.br/assets/img/icon-mais.svg",
+	"organizacoes": [
+		{
+			"nome": "CRED SYSTEM SOCIEDADE DE CREDITO DIRETO SA",
+			"cnpj": "39664698000185",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "051a52a4-711d-49a9-8452-0f4b35871482",
+	"nome": "Daycoval",
+	"descricao": "O Banco Daycoval é uma instituição financeira de mais de 50 anos no mercado especializada em crédito para empresas, para pessoa física (consignado e financiamento), produtos de câmbio e investimentos, tendo canais de atendimento físicos e digitais.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=daycoval",
+	"logo": "https://cdn.daycoval.com.br/obbr/daycoval.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO DAYCOVAL S.A",
+			"cnpj": "62232889000190",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "ebbed125-5cd7-42e3-965d-2e7af8e3b7ae",
+	"nome": "Efí S.A.",
+	"descricao": "A Efí é tudo que o empreendedor precisa: Conta Digital com cartão de débito e pré-pago, emissão de boletos, carnês e links de pagamento, Pix, APIs de recebimento, gestão de clientes e atendimento exclusivo de segunda a segunda, das 07h às 22h.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=ef%C3%AD%20s.a.",
+	"logo": "https://gerencianet-pub-prod-1.s3.amazonaws.com/openbanking/efi-by-gn-512x512.svg",
+	"organizacoes": [
+		{
+			"nome": "EFI S.A. - INSTITUICAO DE PAGAMENTO",
+			"cnpj": "09089356000118",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "68308291-ec0d-4398-83ce-68b6b1087e49",
+	"nome": "Itaú",
+	"descricao": "O Itaú é o maior banco privado do Brasil e está presente em diversos países, contando com empresas no grupo que oferecem crédito, financiamento, investimentos e muito mais. Aproveite o banco completo com soluções que sempre atendem suas necessidades.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=ita%C3%BA",
+	"logo": "https://www.itau.com.br/media/dam/m/4ee2c952e1fa91a2/original/Novo_itau.svg",
+	"organizacoes": [
+		{
+			"nome": "ITAU UNIBANCO S.A.",
+			"cnpj": "60701190000104",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "8197a3c9-11ad-4cfd-9bbf-4d6ad5d51f83",
+	"nome": "Iti",
+	"descricao": "O iti é o banco digital grátis do Itaú que você abre sua conta em até 4 minutos, sem comprovar renda e endereço. No app você paga suas contas, recebe e faz Pix, tem cartão de crédito físico/virtual e pode ter empréstimo com parcelas que cabem no seu bolso",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=iti",
+	"logo": "https://www.itau.com.br/media/dam/m/3d24ac79b5b4fd5c/original/Iti.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO ITAUCARD S.A.",
+			"cnpj": "17192451000170",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "9326f9b2-ae57-42c4-a0d9-acc4ba434696",
+	"nome": "Mercado Pago",
+	"descricao": "O Mercado Pago, maior fintech da América Latina, atua no Brasil desde 2004 e tem como missão democratizar o acesso aos serviços financeiros e de pagamentos, contribuindo para a inclusão financeira e fomentando o poder de empreender na região.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=mercado%20pago",
+	"logo": "https://http2.mlstatic.com/open-banking/assets/logo.svg",
+	"organizacoes": [
+		{
+			"nome": "MERCADO PAGO INSTITUICAO DE PAGAMENTO LTDA",
+			"cnpj": "10573521000191",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "7a7a9a8d-f086-44b6-b81e-215d516c27c1",
+	"nome": "Midway",
+	"descricao": "A Midway é uma plataforma de bem estar financeiro. Através da conta digital gratuita, os consumidores podem ter acesso a empréstimos facilitados, seguros e assistências, ter seu dinheiro rendendo todo dia, sorteios mensais de R$ 10.000 e muito mais!",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=midway",
+	"logo": "https://openfinance.midway.com.br/midway.svg",
+	"organizacoes": [
+		{
+			"nome": "MIDWAY S.A. - SCFI",
+			"cnpj": "09464032000112",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "ba185564-2e26-420e-b6bb-af5bc7102480",
+	"nome": "next",
+	"descricao": "O next é um banco digital completo e gratuito, criado para facilitar a vida das pessoas e ajudá-las a conquistar seus objetivos. Além de conta-corrente e cartões, oferece investimentos, crédito, empréstimos, seguros e promoções com lojas parceiras.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=next",
+	"logo": "https://next.me/_/assets/images/openbanking/logo_next_verde.svg",
+	"organizacoes": [
+		{
+			"nome": "BANCO BRADESCO SA",
+			"cnpj": "60746948000112",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "06c19499-3412-4125-84b7-d0fbc98b5019",
+	"nome": "Nubank",
+	"descricao": "Simples, transparente e seguro: o Nubank é a empresa líder em tecnologia financeira na América Latina que já reinventou a vida financeira de mais de 40 milhões de clientes com conta digital, cartão de crédito, empréstimo, investimentos, seguros e mais.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=nubank",
+	"logo": "https://nuapp.nubank.com.br/open-banking/logo.svg",
+	"organizacoes": [
+		{
+			"nome": "NU PAGAMENTOS S.A. - INSTITUICAO DE PAGAMENTO",
+			"cnpj": "18236120000158",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "649ffe9a-503d-4635-a0fd-41f4b5135b6c",
+	"nome": "PagBank",
+	"descricao": "O PagSeguro é uma empresa líder da internet brasileira, possui em seu portfolio soluções de pagamentos para o comércio eletrônico, atendendo lojas virtuais, e também para estabelecimentos comerciais.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=pagbank",
+	"logo": "https://openfinance.api.pagseguro.uol.com.br/img/logo_pagbank.svg",
+	"organizacoes": [
+		{
+			"nome": "PAGSEGURO",
+			"cnpj": "08561701000101",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "756b9782-d9d4-4f9b-9756-997eba0e2cbd",
+	"nome": "PicPay",
+	"descricao": "O PicPay é uma Instituição de Pagamento que desde 2012 revolucionou a forma como as pessoas lidam com o dinheiro. Com o PicPay você pode receber e enviar dinheiro, guardar dinheiro rendendo mais que a poupança e ter acesso a produtos financeiros.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=picpay",
+	"logo": "https://picpay.s3.sa-east-1.amazonaws.com/openbanking/picpay-logo-icon-pf.svg",
+	"organizacoes": [
+		{
+			"nome": "PICPAY",
+			"cnpj": "22896431000110",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "be927760-d679-4c60-b5af-de2db2fa7bd6",
+	"nome": "PicPay Negócios",
+	"descricao": "O PicPay é uma Instituição de Pagamento que desde 2012 revolucionou a forma como as pessoas lidam com o dinheiro. Com o PicPay Negócios você vende de forma simples e oferece maior segurança e conforto para seus clientes.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=picpay%20neg%C3%B3cios",
+	"logo": "https://picpay.s3.sa-east-1.amazonaws.com/openbanking/logo-picpay-empresas.svg",
+	"organizacoes": [
+		{
+			"nome": "PICPAY",
+			"cnpj": "22896431000110",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "e4b221b8-f418-480f-9f07-538b2793b612",
+	"nome": "Player’s Bank",
+	"descricao": "Player’s Bank é o banco digital do Itaú construído com a comunidade gamer. Entre os benefícios da conta digital gratuita estão o saldo com rendimento automático de 100% do CDI, Pix ilimitado e cartão de crédito sem anuidade para sempre.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=player%E2%80%99s%20bank",
+	"logo": "https://www.itau.com.br/media/dam/m/509ff415966a54da/original/Playersbank.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO ITAUCARD S.A.",
+			"cnpj": "17192451000170",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "10b4f3da-e04e-4904-9988-e93c8f141ab1",
+	"nome": "QI SCD",
+	"descricao": "A QI SCD atua desde 2019 no mercado de crédito brasileiro. Nosso foco é bancarizar empresas que desejam operar crédito com seus clientes",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=qi%20scd",
+	"logo": "https://storage.googleapis.com/qitech-website-documents/qi_logo_blue.svg",
+	"organizacoes": [
+		{
+			"nome": "QI SCD S.A.",
+			"cnpj": "32402502000135",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "66c11181-42ad-4a3b-894c-8db9b224874d",
+	"nome": "Quero-Quero PAG",
+	"descricao": "Com o Quero-Quero PAG você tem uma conta digital completa, com Pix, cartões de débito e crédito, empréstimos, seguro e tudo mais que você precisar. Somos uma empresa do grupo Quero-Quero.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=quero-quero%20pag",
+	"logo": "https://api.queroquero.com.br/webapps/assets/assets/logo/icone_QQPag.svg",
+	"organizacoes": [
+		{
+			"nome": "QUERO-QUERO VERDECARD INSTITUICAO DE PAGAMENTO S.A.",
+			"cnpj": "01722480000167",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "158dfa02-fa59-4177-9bfb-b614220dd721",
+	"nome": "RecargaPay",
+	"descricao": "RecargaPay Pague e Receba Tudo com Pix e Cartão",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=recargapay",
+	"logo": "https://cnt.recarga.com/assets/open-finance/recargapay-color.svg",
+	"organizacoes": [
+		{
+			"nome": "RECARGAPAY INSTITUICAO DE PAGAMENTO LTDA.",
+			"cnpj": "11275560000175",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "fde63db6-f775-44d3-ad88-406a1fb0a48d",
+	"nome": "Safra Empresas",
+	"descricao": "O Banco Safra S.A. conta com um segmento exclusivo dedicado a oferecer diversas opções de produtos e serviços sob medida para cada empresa.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=safra%20empresas",
+	"logo": "https://www.safra.com.br/shared/assets/img/safra-of.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO SAFRA S.A.",
+			"cnpj": "58160789000128",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "bfd95599-61c0-45ca-90cb-5d6e71d4cf9a",
+	"nome": "Safra PF",
+	"descricao": "O Banco Safra S.A. é referência em tradição e segurança no mercado financeiro e oferece um portfólio de produtos e serviços completo para seus clientes.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=safra%20pf",
+	"logo": "https://www.safra.com.br/shared/assets/img/safra-of.svg",
+	"organizacoes": [
+		{
+			"nome": "BCO SAFRA S.A.",
+			"cnpj": "58160789000128",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "c2d48e71-07af-4442-8c7d-c82d0eb45e5f",
+	"nome": "Sicoob",
+	"descricao": "O Sicoob é uma instituição financeira cooperativa que está presente em todos os estados brasileiros e conta com um portfólio completo de produtos e serviços financeiros, além de taxas bem mais justas que as encontradas no mercado financeiro convencional.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=sicoob",
+	"logo": "https://sicoob-openbanking.s3.sa-east-1.amazonaws.com/icone-sicoob.svg",
+	"organizacoes": [
+		{
+			"nome": "Confederacao Nacional das Cooperativas do Sicoob",
+			"cnpj": "04891850000188",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "6c8b9aed-8e24-4ad6-985f-213623a23be3",
+	"nome": "Sicredi",
+	"descricao": "O Sicredi é uma instituição financeira cooperativa, há 120 anos valorizando o relacionamento, o crescimento em conjunto e a participação nos resultados. Facilitamos sua rotina com um atendimento próximo e soluções para você, sua empresa ou agronegócio.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=sicredi",
+	"logo": "https://www.sicredi.com.br/openbanking/app/assets/images/shared/logo/logo_sicredi_512.svg",
+	"organizacoes": [
+		{
+			"nome": "CONFEDERACAO DAS COOPERATIVAS DO SICREDI - CONFEDERACAO SICREDI",
+			"cnpj": "03795072000160",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "a56e9c89-012a-4197-b0e3-ff37a1b07031",
+	"nome": "STONE PAGAMENTOS S.A.",
+	"descricao": "Stone: solução completa de vendas feita para o seu negócio",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=stone%20pagamentos%20s.a.",
+	"logo": "https://res.cloudinary.com/dunz5zfpt/image/upload/fl_sanitize/v1689799781/STONE-Simbolo-512px.svg",
+	"organizacoes": [
+		{
+			"nome": "STONE PAGAMENTOS S.A.",
+			"cnpj": "16501555000157",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "b096d65c-159f-4e3d-b23b-c7e62fc64479",
+	"nome": "Superdigital",
+	"descricao": "Operando desde 2012, a Superdigital Santander é uma conta digital pré-paga que busca simplificar a vida de seus clientes oferecendo facilidades como cartão da conta, transações de pagamentos: pix, transferências, depósitos.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=superdigital",
+	"logo": "https://superdigital.com.br/assets/superdigital/logo-superdigital-open-finance.svg",
+	"organizacoes": [
+		{
+			"nome": "SUPERDIGITAL INSTITUICAO DE PAGAMENTO S.A.",
+			"cnpj": "09554480000107",
+			"status": "Ativo"
+		}
+	]
+},
+{
+	"identificador": "74f9cbfb-1016-4558-a78c-5a55814ce52a",
+	"nome": "Woop",
+	"descricao": "O Woop é a conta digital com tudo o que você precisa para descomplicar a sua vida financeira e ainda ajudar no desenvolvimento da sua região. Você também conta com cartão de crédito, carteiras digitais e muito mais.",
+	"portal": "https://openfinancebrasil.org.br/quem-participa/?marca=woop",
+	"logo": "https://www.sicredi.com.br/openbanking/app/assets/images/shared/logo/Woop_logo_512.svg",
+	"organizacoes": [
+		{
+			"nome": "CONFEDERACAO DAS COOPERATIVAS DO SICREDI - CONFEDERACAO SICREDI",
+			"cnpj": "03795072000160",
+			"status": "Ativo"
+		}
+	]
+}
+]
