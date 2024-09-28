@@ -1,40 +1,30 @@
 'use client'
 import { Column } from 'primereact/column';
 import {  DataTable  } from 'primereact/datatable'
-import { useState } from 'react';
 import dayjs from 'dayjs'
 import { Tag } from 'primereact/tag';
+import  usePayments from '@/app/utils/usePayments'
+import { Payments } from '@prisma/client';
 
-interface Payment {
-    dateCreate: Date,
-    endToEndId: string,
-    reason: string
-    identifierPayment: string,
-    status: string
-    value: string
-}
 
-interface TableProps {
-    payments: Payment[]
-}
- 
-export default function PaymentTable({ payments }: TableProps) {
+export default function PaymentTable() {
 
-	const [products] = useState<Payment[]>(payments)
 
-	const statusBodyTemplate = (product: Payment) => {
+	const statusBodyTemplate = (product: Payments) => {
         return <Tag value={product.status.toUpperCase()} severity={getSeverity(product)}></Tag>;
     };
 
-	const getSeverity = (product: Payment) => {
+    const { data, isLoading } = usePayments()
+
+	const getSeverity = (product: Payments) => {
         switch (product.status) {
-            case 'aceito':
+            case 'APPROVE':
                 return 'success';
 
-            case 'PENDENTE':
+            case 'PENDING':
                 return 'warning';
 
-            case 'rejeitado':
+            case 'EXPIRED':
                 return 'danger';
 
             default:
@@ -44,11 +34,12 @@ export default function PaymentTable({ payments }: TableProps) {
 
 
 	return (
-		<DataTable value={products} showGridlines tableStyle={{ minWidth: '50rem' }}>
+		<DataTable value={data} showGridlines tableStyle={{ minWidth: '50rem' }} loading={isLoading}>
 			<Column field="id" header="id"></Column>
-			<Column field="date" header="Data" body={({ dateCreate }: Payment) => dayjs(dateCreate).format("DD/MM/YYYY [às] HH:mm:ss")}></Column>
-			<Column field="value" header="Valor" body={({value}) => Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL'}).format(value)}></Column>
-			<Column field="reason" header="Motivo" body={({reason}) => reason !== '' ? reason : '-'}></Column>
+			<Column field="created_at" header="Data" body={({ created_at }: Payments) => dayjs(created_at).format("DD/MM/YYYY [às] HH:mm:ss")}></Column>
+			<Column field="value" header="Valor" body={({  ammount }: Payments) => Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL'}).format(ammount)}></Column>
+			<Column field="reason" header="Motivo" body={({ reason }: Payments) => reason !== '' ? reason : '-'}></Column>
+			<Column field="reason" header="Redirect URI" body={({ redirectURI }: Payments) => redirectURI}></Column>
 			<Column field="status" header="Status" body={statusBodyTemplate}></Column>
 		</DataTable>
 	)

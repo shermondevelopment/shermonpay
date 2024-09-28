@@ -4,6 +4,7 @@ import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 import "./globals.css";
 import type { Metadata } from "next";
+import { QueryProviderShermon } from '@/providers/queryProvider';
 
 
 
@@ -19,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <QueryProviderShermon>
+       <body>{children}</body>
+      </QueryProviderShermon>
     </html>
   );
 }

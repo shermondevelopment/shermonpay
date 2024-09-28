@@ -16,7 +16,7 @@ const api = axios.create({
 
 export async function GET(req: Request) {
 
-	const payments = await prisma.payment.findMany({
+	const payments = await prisma.payments.findMany({
 		orderBy: {
 			created_at: 'desc'
 		}

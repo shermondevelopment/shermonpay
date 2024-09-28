@@ -13,15 +13,24 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Payment {
-  id String @id @default(uuid())
-  identifierPayment String
-  value String
-  status String
-  dateCreate DateTime
-  endToEndId String
-  reason String
 
-  created_at DateTime? @default(now())
-  updated_at  DateTime? @updatedAt
+enum StatusPayment {
+  APPROVE 
+  PENDING
+  EXPIRED
+}
+
+model Payments {
+  id String @id @default(uuid())
+  identifier String
+  redirectURI String
+  ammount Float 
+  reason  String?
+  ownId String?
+  description String?
+  status StatusPayment @default(PENDING)
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@map("payments")
 }

@@ -116,7 +116,7 @@ export const FormReceivePayment = () => {
 
 
 	return (
-		<div className="w-full h-screen  flex justify-content-center align-items-center">
+		<div className="w-full h-screen  flex justify-content-center align-items-center mt-10">
 			<div className="flex flex-column">
 			 {link && (
 				<div className="flex justify-content-center flex-column justify-center align-items-center">
