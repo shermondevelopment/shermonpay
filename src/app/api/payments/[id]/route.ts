@@ -6,11 +6,7 @@ export async function GET(
 	{ params }: { params: { id: string } },
 ) {
 
-	const creditorAccount = await prisma.payment.findFirst({
-		where: {
-			identifierPayment: params.id
-		},
-	})
+	const creditorAccount = await prisma.payments.findFirst()
 
 	if (!creditorAccount) {
 		return NextResponse.json(null)
