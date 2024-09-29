@@ -34,13 +34,18 @@ export default function PaymentTable() {
 
 
 	return (
-		<DataTable value={data} showGridlines tableStyle={{ minWidth: '50rem' }} loading={isLoading}>
+		<div>
+            <DataTable value={data} showGridlines tableStyle={{ minWidth: '50rem' }} loading={isLoading}>
 			<Column field="id" header="id"></Column>
 			<Column field="created_at" header="Data" body={({ created_at }: Payments) => dayjs(created_at).format("DD/MM/YYYY [às] HH:mm:ss")}></Column>
 			<Column field="value" header="Valor" body={({  ammount }: Payments) => Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL'}).format(ammount)}></Column>
 			<Column field="reason" header="Motivo" body={({ reason }: Payments) => reason !== '' ? reason : '-'}></Column>
 			<Column field="reason" header="Redirect URI" body={({ redirectURI }: Payments) => redirectURI.substring(0, 20)}></Column>
 			<Column field="status" header="Status" body={statusBodyTemplate}></Column>
-		</DataTable>
+		   </DataTable>
+           <div className="w-full flex justify-content-center mt-5">
+           <span>{data?.length}</span>
+           </div>
+        </div>
 	)
 }
